@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #ac45e0 20%, #208aec 50%, #5905cf 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(87, 160, 212, 0.29);
+    padding: 20px;
+    border-radius: 7px;
+    width: 90%; 
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.input-p {
+    text-align: center;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+button {
+    margin: 10px 0;
+    color: #fff;
+    border-radius: 30px;
+    height: 40px;
+    width: 180px;
+    border: 2px solid #fff;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.result, .guid {
+    color: #fff;
+    font-size: 20px;
+    border-radius: 6px;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.guid h3 {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f58a00;
+}
+
+.guid p {
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px;
+    background-color: #edaf28;
+}
+
+@media (max-width: 500px) {
+    form {
+        width: 100%; 
+    }
+    h1 {
+        font-size: 6vw;
+    }
+}
