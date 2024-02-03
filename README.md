@@ -21,8 +21,7 @@ BMI Guide: Receive a personalized guide indicating whether your weight is underw
 
 
 # Live Demo
-Try the BMI Calculator live: BMI Calculator Demo
-
+Try the BMI Calculator live: [BMI Calculator Demo](https://shaheb746.github.io/BMI-Calculator/).
 # Technology
 HTML, CSS, JAVASCRIPT
 
