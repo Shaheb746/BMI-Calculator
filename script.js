@@ -19,9 +19,10 @@ document.querySelector('form').addEventListener('submit', function (event) {
     if (height === '' || height < 0 || isNaN(height) || weight === '' || weight < 0 || isNaN(weight)) {
         guid.innerHTML = '';
     } else {
-        if (weight < 18.6) {
+        const BMI = weight / ((height * height) / 10000);
+        if (BMI < 18.6) {
             guid.innerHTML = `Your weight is Underweight`;
-        } else if (weight >= 18.6 && weight <= 24.9) {
+        } else if (BMI >= 18.6 && BMI <= 24.9) {
             guid.innerHTML = `Your weight is Normal`;
         } else {
             guid.innerHTML = `Your weight is Overweight`;
