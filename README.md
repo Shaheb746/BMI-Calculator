@@ -1,4 +1,4 @@
-# BMI-Calculato🚀
+# BMI-Calculat🚀
 
 Welcome to the BMI Calculator! This simple web application helps you calculate your Body Mass Index (BMI) and guides your weight category.
 
